@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 440px;
+}
+
+.bg-header {
+  background-image: url(../assets/images/image1.png);
+  /* max-width: 50%; */
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 300px;
+}
+
+.bg-banner {
+  background-image: url(../assets/images/banner2x.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 360px;
+  position: absolute;
+  top: 7%;
+  z-index: 1;
+}
+
+.navigation {
+  z-index: 2;
+}
+
+.about {
+  margin: -50px 0 0 50px;
+}
+
+.about-img {
+  width: 500px;
+  height: 300px;
+}
+
+.section {
+  position: relative;
+}
+
+.section-tilte {
+  top: 25%;
+}
+
+.banner {
+  background-image: url(../assets/images/banner2x.png);
+  /* background-repeat: no-repeat; */
+  height: 600px;
+  width: 100%;
+  width: 1500px;
+
+}
+
+.title {
+  font-size: 150px;
+  margin-top: -10%;
+  text-align: center;
+  color: #000232
+}
+
+.title-white {
+  font-size: 170px;
+  margin-top: -10%;
+  text-align: center;
+  color: #fff
+}
+
+.works-card {
+  /* height: 380px; */
+  background-color: #030233;
+  color: #fff;
+
+}
+
+.work-description {
+  font-size: 13px;
+}
+
+.cards {
+  margin: 50px 0 50px 90px;
+  gap: 10px
+}
+
+.card-word {
+  background-color: transparent;
+  border: none
+}
+
+.people {
+  margin-top: -50px;
+}
+
+.recruit {
+  font-size: 120px;
+  color: #030233;
+  margin-top: -4%;
+}
+
+.btn-rectuit {
+  border-radius: 0px;
+}
+
+.contact {
+  background-image: url('../assets/images/footer.png');
+}
+
+.description-contact {
+  width: 540px;
+  margin: auto;
+}
+
+.form-contact {
+  width: 40%;
+  margin: auto;
+}
+
+.input-contact {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.btn-contact {
+  width: 275px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.footer {
+  gap: 70px
+}
