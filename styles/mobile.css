@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 50px;
+        margin-top: -10%;
+        text-align: center;
+        color: #000232
+    }
+
+    .title-white {
+        font-size: 70px;
+        margin-top: -10%;
+        text-align: center;
+        color: #fff
+    }
+
+    .section-tilte {
+        top: 3%;
+    }
+
+    .banner-title {
+        font-size: 95px;
+    }
+
+    .bg-banner {
+        height: 150px;
+    }
+
+    header {
+        height: 180px;
+    }
+
+    .font-md {
+        font-size: 15px;
+    }
+
+    .font-sm {
+        font-size: 12px;
+    }
+
+    .description-contact {
+        width: 300px;
+    }
+
+    .btn-contact {
+        width: 100px;
+    }
+
+    .form-contact {
+        width: 70%;
+    }
+
+    .recruit-description {
+        width: 100px;
+    }
+
+}

@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
   <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/mobile.css">
   <title>有限会社 石黒商店</title>
 </head>
 
@@ -17,30 +18,25 @@
   <header>
     <div class="row bg-header">
       <div class="col">
-        <h1>有限会社 石黒商店</h1>
+        <h1 class="text-light logo"><span class="font-sm">有限会社</span> <span class="font-md">石黒商店</span></h1>
       </div>
       <div class="col navigation">
         <!-- nav -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-sm">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active font-weight-boild" aria-current="page" href="#">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                <li class="nav-item ">
+                  <a class="nav-link font-weight-boild" href="#">WORKS</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                <li class="nav-item ">
+                  <a class="nav-link font-weight-boild" href="#">RECRUIT</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
+                <li class="nav-item ">
+                  <a class="nav-link font-weight-boild">CONTACT US</a>
                 </li>
               </ul>
             </div>
@@ -50,7 +46,7 @@
       </div>
       <div class="row bg-banner">
         <div class="container-xxl">
-          <h1>ISIGURO</h1>
+          <h1 class="banner-title">ISIGURO</h1>
         </div>
       </div>
     </div>
@@ -135,24 +131,25 @@
           <button type="button" class="btn btn-outline-dark btn-rectuit">求人のお問い合わせは</button>
         </div>
       </div>
-      <div class="row">
+      <div class="row pt-5">
         <div class="col-6"></div>
-        <h2 class="col-6 recruit">RECRUIT</h2>
+        <h2 class="col-6 title">RECRUIT</h2>
       </div>
     </div>
     <div class="row mt-5">
-      <div class="col-1">
+      <div class="col-2">
       </div>
-      <div class="col">
-        <h3 class="font-weight-bold">八戸から世界へ！ 「再生」をテーマに「社会貢献」</h3>
-        <p>
+      <div class="col-4 col-sm-9">
+        <h3 class="font-weight-bold">八戸から世界へ！ </h3>
+        <h3 class="font-weight-bold pb-3">再生」をテーマに「社会貢献」</h3>
+        <p class="recruit-description">
           産業廃棄物に該当しないすべての廃棄物のことを「一般廃棄物」と呼びます。石黒商店では、青森県の許可を受け、事業所や店舗、ご家庭の一般廃棄物を収集・運搬しています。回収した資源ごみは自社の中間施設にてリサイクル処理を行い、新しい資源として生まれ変わります。
         </p>
-        <p class="float-right font-weight-bold">有限会社 石黒商店／代表取締役</p>
-        <p class="float-right font-weight-bold">石黒 ●●●</p>
+        <p class="text-end recruit-text font-weight-bold pt-5">有限会社 石黒商店／代表取締役</p>
+        <p class="text-end recruit-text font-weight-bold">石黒 ●●●</p>
       </div>
-      <div class="col">
-        <img class="" src="./assets/images/director.png" alt="" />
+      <div class="col-3">
+        <img class="img-fluid" src="./assets/images/director.png" alt="" />
       </div>
     </div>
   </div>

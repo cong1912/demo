@@ -4,6 +4,26 @@
   padding: 0;
 }
 
+.font-md {
+  font-size: 30px;
+}
+
+.font-sm {
+  font-size: 25px;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.banner-title {
+  text-align: center;
+  margin: 0px;
+  font-size: 270px;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+
 header {
   height: 440px;
 }
@@ -127,6 +147,14 @@ header {
 
 .btn-contact {
   width: 275px;
+}
+
+.recruit-text {
+  margin: 0;
+}
+
+.recruit-description {
+  width: 415px;
 }
 
 .form-control::-webkit-input-placeholder {
