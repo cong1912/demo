@@ -53,4 +53,11 @@
         width: 100px;
     }
 
+    .footer {
+        height: 400px;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        padding-bottom: 120px;
+    }
 }
