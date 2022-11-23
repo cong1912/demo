@@ -137,7 +137,8 @@ header {
 
 .card-word {
   background-color: transparent;
-  border: none
+  border: none;
+  width: 18rem
 }
 
 .section-card {
