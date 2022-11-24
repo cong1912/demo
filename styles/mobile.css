@@ -6,6 +6,16 @@
         color: #000232
     }
 
+    .img-left {
+        width: 350px;
+        height: 100px;
+    }
+
+    .img-right {
+        width: 500px;
+        height: 100px;
+    }
+
     .navbar-toggler {
         position: relative;
         left: -20px;
@@ -36,6 +46,28 @@
         margin: 0;
     }
 
+    .nav-item {
+        color: #fff
+    }
+
+    .list-card {
+        display: flex;
+        padding-left: 0;
+        /* margin: auto; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-recruit {
+        right: -10px;
+        bottom: -36px;
+    }
+
+    .card-img-top {
+        width: 380px;
+        height: 260px;
+    }
+
     .card-word {
         width: 23rem
     }
@@ -53,6 +85,10 @@
         margin-top: -10%;
         text-align: center;
         color: #fff
+    }
+
+    div {
+        border: none
     }
 
     .section-tilte {
@@ -92,7 +128,7 @@
     }
 
     .section-card {
-        height: 1250px;
+        height: 1400px;
     }
 
     .recruit-description {
@@ -104,7 +140,6 @@
         flex-direction: column;
         gap: 0;
         align-items: center;
-        padding-bottom: 120px;
     }
 
     .description-people {

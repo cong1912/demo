@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.nav-item {
+  font-weight: 700;
+  color: #000232;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -18,6 +23,7 @@
 
 .logo {
   margin-left: 10px;
+  color: #ffffff;
 }
 
 .sumary-about {
@@ -78,9 +84,10 @@ header {
 .banner-title {
   text-align: center;
   margin: 0px;
+  margin: auto;
   font-size: 270px;
   color: transparent;
-  -webkit-text-stroke: 2px #fff;
+  -webkit-text-stroke: 1px #fff;
 }
 
 .works {
@@ -103,8 +110,18 @@ header {
   margin-top: -9%;
 }
 
+.img-left {
+  width: 451px;
+  height: 300px;
+}
+
+.img-right {
+  width: 420px;
+  height: 300px;
+}
+
 .title {
-  font-size: 150px;
+  font-size: 230px;
   margin-top: -10%;
   text-align: center;
   color: #000232;
@@ -112,7 +129,7 @@ header {
 
 .title-white {
   font-size: 170px;
-  margin-top: -10%;
+  margin-top: -6%;
   text-align: center;
   color: #fff;
 }
@@ -138,14 +155,24 @@ header {
 .card-word {
   background-color: transparent;
   border: none;
-  width: 18rem
+  width: 25rem
+}
+
+.work-description {
+  font-size: 18px
+}
+
+.card-img-top {
+  width: 380px;
+  height: 260px;
 }
 
 .section-card {
   display: flex;
   justify-content: end;
   background-color: #000232;
-  height: 500px
+  height: 550px;
+  border: none
 }
 
 .btn-rectuit {
@@ -153,8 +180,40 @@ header {
   border-radius: 0px;
 }
 
+.list-card {
+  display: flex;
+  padding-left: 120px;
+}
+
+.card-body h5 {
+  font-size: 20px;
+}
+
 .contact {
   background-image: url('../assets/images/footer.png');
+}
+
+.title-contact {
+  margin-top: -10%;
+  font-size: 150px;
+}
+
+.title-recruit {
+  position: absolute;
+  font-size: 230px;
+  right: -365px;
+  bottom: -100px
+}
+
+.recruit-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.people-img {
+  position: relative;
 }
 
 .description-contact {
@@ -212,7 +271,8 @@ header {
   }
 
   .description-about {
-    font-size: 11px;
+    font-size: 20px;
+    color: #000232
   }
 
   .works {
